@@ -10,7 +10,7 @@ public class Player {
         return name;
     }
 
-    public int chooseNumber(int MaxGuess) {
+    public int chooseNumber(int maxGuess) {
         return RandomGenerator.getRandom(1, maxGuess);
     }
 }
